@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react' // जर रिएक्ट असेल तर
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base : '/Marketing-Website/',
   plugins: [react()],
+  base: '/cafepossystem/', // 👈 ही लाईन अचूकपणे जोडा
 })
